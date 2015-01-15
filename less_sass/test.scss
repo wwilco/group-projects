@@ -1,0 +1,15 @@
+$my_color: #BADA55;
+$logo_color: #F01B1B;
+
+h1 {
+  color: $logo_color
+}
+
+nav {
+  a{
+    color: $my_color;
+    &:hover {
+      color: darken($my_color, 20%);
+    }
+  }
+}
